@@ -16,7 +16,9 @@ function coerceDate (value) {
 export default new GraphQLScalarType({
   name: 'DateTime',
   serialize: coerceDate,
-  parseValue: coerceDate,
+  parseValue: (value) => {
+    return new Date(value)
+  },
   parseLiteral (ast) {
     if (ast.kind !== Kind.STRING) {
       throw new GraphQLError('Query error: Can only parse strings to dates but got a: ' + ast.kind, [ast])
