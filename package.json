@@ -1,15 +1,15 @@
 {
-  "name": "graphql-custom-datetype",
-  "version": "0.3.0",
+  "name": "@8i/graphql-custom-datetype",
+  "version": "1.0.0",
   "description": "Custom date type for graphql",
   "main": "dist/datetype.js",
-  "homepage": "https://github.com/soundtrackyourbrand/graphql-custom-datetype",
+  "homepage": "https://github.com/8i/graphql-custom-datetype",
   "bugs": {
-    "url": "https://github.com/soundtrackyourbrand/graphql-custom-datetype/issues"
+    "url": "https://github.com/8i/graphql-custom-datetype/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/soundtrackyourbrand/graphql-custom-datetype.git"
+    "url": "https://github.com/8i/graphql-custom-datetype.git"
   },
   "peerDependencies": {
     "graphql": "^0.5.0 || ^0.6.0"
